@@ -1,0 +1,10 @@
+{
+  "name": "payscope-chat",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/view-model.test.mjs tests/analysis-stream.test.mjs",
+    "check": "node --check src/payments_analyst/static/analysis-stream.js && node --check src/payments_analyst/static/app.js && node --check src/payments_analyst/static/charts.js && node --check src/payments_analyst/static/auth-client.js"
+  }
+}
